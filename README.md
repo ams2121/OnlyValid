@@ -15,6 +15,7 @@ Logic:
 * If I send email to an address (to/cc/bcc), it is likely someone I know and with whom I converse
 * If I send email to an address, show me email recieved from this address (High Trust)
 * The more email I sesnd to an address, the more I probably trust it
+* If the email is from a first hop that the sender normally uses, trust them more (ie. my mail server is likley always the same or similar)
 
 
 **Statement 2) Friends of Friends - Show email from people who also get email, from the people to whom I send email **
@@ -39,6 +40,7 @@ Logic:
 
 
 ----------------------------------------------
+
 Interesting Code
 
 * Good Addon 
@@ -51,5 +53,13 @@ Interesting Code
   * Message Header object - https://webextension-api.thunderbird.net/en/91/messages.html#messageheader
   * Message Display command to get contents - https://webextension-api.thunderbird.net/en/91/messageDisplay.html
 
+----------------------------------------------
+
+Order of Work
+
+* Retrieve all senders / To / CC / BCC / message ID / Reply To / references
+* ID all message-IDs I've sent (email threads)
+* ID all people I've sent email to (friends)
+* Find all recipients in emails people ive sent email to have sent (friends of friends)
 
 0---------1---------2---------3---------4---------5---------6---------7---------8
