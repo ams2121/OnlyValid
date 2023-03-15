@@ -38,4 +38,18 @@ Logic:
 
 
 
+----------------------------------------------
+Interesting Code
+
+* Good Addon 
+  * An addon which pulls "sender" from all of your email.  This is a good code example to start pulling data
+  * https://github.com/CicadaCinema/get-all-senders
+  * https://github.com/CicadaCinema/get-all-senders/blob/master/mainPopup/popup.js
+* Good References
+  * Pulling from a pages (of emails)/index - https://developer.thunderbird.net/add-ons/hello-world-add-on/using-a-background-page
+  * Message Lists - https://webextension-api.thunderbird.net/en/91/how-to/messageLists.html
+  * Message Header object - https://webextension-api.thunderbird.net/en/91/messages.html#messageheader
+  * Message Display command to get contents - https://webextension-api.thunderbird.net/en/91/messageDisplay.html
+
+
 0---------1---------2---------3---------4---------5---------6---------7---------8
